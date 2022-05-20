@@ -136,13 +136,19 @@ def es_multiplo(numero, multiplo):
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
+"""
+Reemplazar por el enunciado del ejercicio
+"""
 
-# Reemplazar por las funciones del ejercicio
+# Reemplazar por las funciones a implementar del ejercicio
 
 
 def principal():
+    """
+    Descripción del ejercicio
+    """
     pass
 
 if __name__ == "__main__":
-    prueba()
+    principal()
 ```

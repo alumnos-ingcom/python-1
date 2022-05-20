@@ -17,5 +17,5 @@ def principal():
     pass
 
 if __name__ == "__main__":
-    prueba()
+    principal()
 

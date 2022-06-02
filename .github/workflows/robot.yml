@@ -22,7 +22,7 @@ jobs:
         pip install pytest pytest-cov
     - name: Analizando el estilo de programación (PEP8)
       run: |
-        pycodestyle --show-source -vv $(git ls-files '*.py')
+        pycodestyle --show-source $(git ls-files '*.py')
     - name: Analizando el código con pylint
       run: |
         pylint --fail-under 4 -v $(git ls-files '*.py')

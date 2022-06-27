@@ -28,4 +28,5 @@ jobs:
         pylint --fail-under 4 -v $(git ls-files '*.py')
     - name: Ejecutando los tests con cobertura
       run: |
+        export PYTHONPATH=src
         python -m pytest -v --cov=src
